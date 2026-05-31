@@ -9,7 +9,7 @@
 #define SHOW_DATA 10
 
 
-//fungsi bantuan untuk swap data
+//fungsi bantuan untuk swap data (arqan)
 void swapInt(int *a, int *b) {
     int temp = *a;
     *a = *b;
@@ -56,7 +56,7 @@ void printStringData(char words[][MAX_LENGTH], int n) {
     }
 }
 
-//MENU SORTING DASAR
+//MENU SORTING DASAR(arqaqn)
 
 void bubbleSort(int arr[], int n) {
     for (int i = 0; i < n - 1; i++) {
@@ -96,7 +96,7 @@ void selectionSort(int arr[], int n) {
     }
 }
 
-//MENU ADVANCE SORTING 
+//MENU ADVANCE SORTING (rian)
 
 void merge(char words[][MAX_LENGTH], int left, int mid, int right) {
     int n1 = mid - left + 1;
@@ -191,7 +191,7 @@ void shellSort(char words[][MAX_LENGTH], int n) {
     }
 }
 
-//MENU FILE DATASET
+//MENU FILE DATASET (rian)
 
 int loadWords(char words[][MAX_LENGTH], const char *filename) {
     FILE *file = fopen(filename, "r");
@@ -211,7 +211,7 @@ int loadWords(char words[][MAX_LENGTH], const char *filename) {
     return count;
 }
 
-//MENU SORTING DASAR
+//MENU SORTING DASAR (farhati)
 
 void sortingDasar() {
     int pilihan;
@@ -262,7 +262,7 @@ void sortingDasar() {
     } while (pilihan != 4);
 }
 
-//MENU ADVANCE SORTING 
+//MENU ADVANCE SORTING (farhati)
 
 void advanceSorting() {
     int pilihan;
@@ -318,7 +318,7 @@ void advanceSorting() {
     } while (pilihan != 4);
 }
 
-//MAIN
+//MAIN (farhati)
 int main() {
     srand(time(NULL));
 
